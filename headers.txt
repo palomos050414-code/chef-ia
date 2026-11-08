@@ -1,0 +1,8 @@
+HTTP/1.1 404 Not Found
+Date: Sat, 07 Nov 2026 19:10:33 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 19
+Connection: keep-alive
+Vary: Origin
+X-Content-Type-Options: nosniff
+

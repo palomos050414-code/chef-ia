@@ -6,7 +6,7 @@ Los valores de DEFAULT_SETTINGS son editables desde la barra lateral
 
 DEFAULT_SETTINGS: dict[str, str] = {
     "chat_url": "https://integrate.api.nvidia.com/v1/chat/completions",
-    "vision_model": "meta/llama-3.2-11b-vision-instruct",
+    "vision_model": "nvidia/nemotron-3.5-super-vl-120b-a12b",  # confirmado en build.nvidia.com (multimodal, salida estructurada)
     "recipe_model": "deepseek-ai/deepseek-v4.1-flash",  # CONFIRMAR ID exacto en build.nvidia.com
     "image_url": "https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-schnell",
     "video_url": "https://ai.api.nvidia.com/v1/cosmos/nvidia/cosmos3-nano",
